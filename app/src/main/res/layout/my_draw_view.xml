@@ -4,10 +4,11 @@
 
     <com.sjgsu.ai.magnifiertest.ImageMagnifier
         android:id="@+id/magnifier"
+        android:src="@drawable/batman"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.zjgsu.ai.calibrationtest.DrawSurface
+    <com.sjgsu.ai.magnifiertest.DrawSurface
         android:id="@+id/myDrawImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -26,16 +26,6 @@ public class ImageMagnifier extends ImageView {
     private BitmapShader shader;
     private int sizeOfMagnifier = 200;
 
-    public ImageMagnifier(Context context) {
-        super(context);
-        init();
-    }
-
-    public ImageMagnifier(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-        init();
-    }
-
     public ImageMagnifier(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();

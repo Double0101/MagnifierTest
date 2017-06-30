@@ -5,15 +5,10 @@ package com.sjgsu.ai.magnifiertest;
  */
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Matrix;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 /**
@@ -35,7 +30,5 @@ public class MyDrawView extends RelativeLayout {
         mContext = context;
         magnifierView = (ImageMagnifier) findViewById(R.id.magnifier);
         drawSurface = (DrawSurface) findViewById(R.id.myDrawImage);
-        magnifierView.setImageDrawable(getResources().getDrawable(R.drawable.bg_try));
-        magnifierView.setAdjustViewBounds(true);
     }
 }
