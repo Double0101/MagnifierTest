@@ -70,7 +70,6 @@ public class ImageMagnifier extends ImageView {
         if (!zooming) {
             buildDrawingCache();
         } else {
-
             bitmap = getDrawingCache();
             shader = new BitmapShader(bitmap, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
 
